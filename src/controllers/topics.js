@@ -240,6 +240,10 @@ topicsController.get = function (req, res, callback) {
 					rel: 'alternate',
 					type: 'application/rss+xml',
 					href: nconf.get('url') + '/topic/' + tid + '.rss'
+				},
+				{
+					rel: 'canonical',
+					href: nconf.get('url') + '/topic/' + topicData.slug
 				}
 			];
 
