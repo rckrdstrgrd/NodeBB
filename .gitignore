@@ -5,6 +5,7 @@ config.json
 jsconfig.json
 public/src/nodebb.min.js
 !src/views/config.json
+nodebb-proguitar-uploads
 public/css/*.css
 *.sublime-project
 *.sublime-workspace

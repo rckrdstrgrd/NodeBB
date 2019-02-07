@@ -93,16 +93,7 @@
     "underscore.deep": "^0.5.1",
     "validator": "^6.1.0",
     "winston": "^2.1.0",
-    "xregexp": "~3.1.0",
-    "nodebb-plugin-sso-keycloak": "rckrdstrgrd/nodebb-plugin-sso-keycloak",
-    "nodebb-theme-proguitar": "bitbucket:JRInnovation/nodebb-theme-proguitar",
-    "nodebb-plugin-composer-proguitar": "Musicman85/nodebb-plugin-composer-proguitar",
-    "nodebb-plugin-youtube-embed": "0.6.6",
-    "nodebb-plugin-pdf-embed": "rckrdstrgrd/nodebb-plugin-pdf-embed",
-    "nodebb-plugin-audio-link-replace": "rckrdstrgrd/nodebb-plugin-audio-link-replace",
-    "nodebb-plugin-emoji-apple": "1.0.4",
-    "nodebb-plugin-google-analytics": "0.5.9",
-    "nodebb-plugin-emailer-mailgun": "1.0.2"
+    "xregexp": "~3.1.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.14",

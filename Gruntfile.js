@@ -102,6 +102,10 @@ module.exports = function (grunt) {
 
 	env.NODE_ENV = 'development';
 
+	env.upload_path = '/tmp/nodebb-proguitar-uploads/';
+	env.KEYCLOAK_RESOURCE ="forum.dev-proguitar.com";
+	env.REALM="ProGuitar";
+	env.AUTH_SERVER_URL="http://accounts.dev-proguitar.com/auth";
 	worker = fork('app.js', args, { env: env });
 	grunt.event.on('watch', update);
 };
